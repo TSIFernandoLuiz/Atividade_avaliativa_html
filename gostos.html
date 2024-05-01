@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Gostos - Luiz Fernando</title>
+	<link rel="shortcut icon" href="ico1.png">
+
+</head>
+
+<style>
+
+	.container {
+		display: flex;
+		justify-content: right;
+		}
+
+
+					     			.p1 {
+					        			font-size: 20px;
+					        			font-family: TimesNewRoman;
+					        			color: white;
+					        			text-align: justify;
+					        			margin-left: 400px;
+					        			margin-right: 400px;
+					        			}
+
+								        	.fig {	
+								        		position: relative;
+								        		display: block;
+								        		}
+
+										      .fig img{
+										      	position: relative;
+										      	display: block;
+										      	box-shadow: 1px 1px 2px black;
+										      	width: 100%;
+											    height: 100%;
+												margin-left: auto;
+												margin-right: auto;
+												transition: box-shadow 0.2s;
+												}
+
+											.fig: hover img{
+												box-shadow: 1px 1px 2px black;
+												}
+
+										.fig figcaption{
+											font-family: TimesNewRoman;
+											font-size: 30px;
+											opacity: 0;
+											position: absolute;
+								     		top: 0px;
+								      		left: 50%;
+								          	right: 50%;
+								      		transform: translateX(-50%);
+								      		background-color: rgba(0, 0, 0, 0.4);
+								      		width: 100%;
+									      	height: 100%;
+										    box-sizing: border-box;
+									      	transition: opacity 1s;
+									      	color: white;
+									      	text-align: center;
+											}
+
+									.fig:hover figcaption{
+										opacity: 1;
+										transition: opacity 1s;
+										}
+
+								.grid-container {
+									display: grid;
+									grid-template-columns: repeat(4, 3fr);
+									gap: 10px;
+									}
+
+							.grid-item img {
+								margin-left: auto;
+								margin-right: auto;
+								display: block;
+					 			}
+
+	body {  background-image: linear-gradient(to bottom, #333333, #777777);
+	}
+
+</style>
+
+<body> 
+
+<div class="grid-container">
+
+<div class="grid-item"> <figure class="fig"> 
+  	<img src="../gostos/chocolate.jpg" alt="Chocolate"> 
+  		<figcaption>CHOCOLATE</figcaption> </figure> </div> 
+
+	  		<div class="grid-item"> <figure class="fig"> 
+	  			<img src="../gostos/confeitaria.jpg" alt="Confeitaria">
+	  				<figcaption>CONFEITARIA</figcaption> </figure> </div>
+
+			  			<div class="grid-item"> <figure class="fig"> 
+			  				<img src="../gostos/dança.jpg" alt="Dança">
+			  					<figcaption>DANÇA</figcaption> </figure> </div>
+
+						  			<div class="grid-item"> <figure class="fig"> 
+						  				<img src="../gostos/dormir.jpg" alt="Dormir">
+						  					<figcaption>DORMIR</figcaption> </figure> </div>
+
+
+<div class="grid-item"> <figure class="fig"> 
+  	<img src="../gostos/familia.jpg" alt="Família"> 
+  		<figcaption>FAMÍLIA</figcaption> </figure> </div> 
+
+	  		<div class="grid-item"> <figure class="fig">
+	  			<img src="../gostos/frio.jpg" alt="Frio">
+	  				<figcaption>FRIO</figcaption> </figure> </div>
+
+				  		<div class="grid-item"> <figure class="fig"> 
+				  			<img src="../gostos/igreja.jpg" alt="Igreja">
+				  				<figcaption>IGREJA</figcaption> </figure> </div>
+
+							  		<div class="grid-item"> <figure class="fig"> 
+							  			<img src="../gostos/jogos.jpg" alt="Jogos">
+							  				<figcaption>JOGOS</figcaption> </figure> </div>
+
+
+<div class="grid-item"> <figure class="fig"> 
+  	<img src="../gostos/musica.jpg" alt="Músicas"> 
+  		<figcaption>MÚSICAS</figcaption> </figure>  </div> 
+
+	  		<div class="grid-item"> <figure class="fig"> 
+	  			<img src="../gostos/prof.jpg" alt="Lecionar">
+	  				<figcaption>LECIONAR</figcaption> </figure> </div>
+
+				  		<div class="grid-item"> <figure class="fig"> 
+				  			<img src="../gostos/tecnologia.jpg" alt="Tenologia">
+				  				<figcaption>TECNOLOGIA</figcaption> </figure>  </div>
+
+							  		<div class="grid-item"> <figure class="fig"> 
+							  			<img src="../gostos/xadrez.jpg" alt="Xadrez">
+							  				<figcaption>XADREZ</figcaption> </figure>  </div>
+</div>
+
+<hr>
+
+<p class="p1"> &#129302; Desenvolvido por Luiz Fern@ndo Rodrigues &copy; &#129302;</p>
+
+</body>
+</html>
+
